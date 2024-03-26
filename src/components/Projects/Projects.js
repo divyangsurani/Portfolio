@@ -52,16 +52,6 @@ function Projects() {
               demoLink="https://text-utils-p87y-mpdv2k7na-divyangs-projects-51acb4e1.vercel.app/"
             />
           </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={mrgym}
-              isBlog={false}
-              title="Text changer"
-              description="Mr.Gym Fitness Club is a web application built using HTML, CSS, JavaScript, and Bootstrap,php."
-              // ghLink="https://github.com/divyangsurani/TextUtils"
-            />
-          </Col>
         </Row>
       </Container>
     </Container>

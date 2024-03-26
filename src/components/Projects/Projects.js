@@ -4,7 +4,8 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import textutils from "../../Assets/Projects/textutils.png";
 import evergreennews from "../../Assets/Projects/evergreennews.png";
-import mrgym from "../../Assets/Projects/mrgym.png"
+import mrgym from "../../Assets/Projects/mrgym.png";
+import blog from "../../Assets/Projects/blog.png";
 
 function Projects() {
   return (
@@ -18,6 +19,17 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={blog}
+              isBlog={false}
+              title="NewsAPP"
+              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. 
+              Supports dark mode and easy to write blogs using markdown. "
+              ghLink="https://github.com/divyangsurani/bits-of-code"
+              demoLink="https://bits-of-code-gamma.vercel.app/"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={evergreennews}
@@ -37,10 +49,11 @@ function Projects() {
               title="Text changer"
               description="TextUtils is a React web application built using HTML, CSS, JavaScript, and Bootstrap. It serves as a versatile tool for text manipulation, offering features such as converting text to uppercase or lowercase, copying text to the clipboard, and removing extra spaces. The app's intuitive interface and comprehensive functionalities make it a valuable resource for users seeking efficient text processing solutions."
               ghLink="https://github.com/divyangsurani/TextUtils"
+              demoLink="https://text-utils-p87y-mpdv2k7na-divyangs-projects-51acb4e1.vercel.app/"
             />
-          </Col>   
-          
-           <Col md={4} className="project-card">
+          </Col>
+
+          <Col md={4} className="project-card">
             <ProjectCard
               imgPath={mrgym}
               isBlog={false}

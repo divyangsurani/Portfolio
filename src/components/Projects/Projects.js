@@ -54,7 +54,7 @@ function Projects() {
               title="Text changer"
               description="TextUtils is a React web application built using HTML, CSS, JavaScript, and Bootstrap. It serves as a versatile tool for text manipulation, offering features such as converting text to uppercase or lowercase, copying text to the clipboard, and removing extra spaces. The app's intuitive interface and comprehensive functionalities make it a valuable resource for users seeking efficient text processing solutions."
               ghLink="https://github.com/divyangsurani/TextUtils"
-              demoLink="https://text-utils-p87y-mpdv2k7na-divyangs-projects-51acb4e1.vercel.app/"
+              demoLink="https://text-utils-p87y.vercel.app/"
             />
           </Col>
            <Col md={5} className="project-card">

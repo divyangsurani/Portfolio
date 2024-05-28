@@ -11,7 +11,7 @@ function AboutCard() {
           <ImPointRight /> Hi Everyone, I am <span className="purple">DIVYANG SURANI </span>
             from <span className="purple"> Ahmedabad, India.</span>
             <br />
-            <ImPointRight />I am currently intern at Techvault Support Service LLP (Branch).
+            <ImPointRight />I have experienced in the React.js at the Techvault Support Service LLP (Branch) for 6 months as intern.
             <br />
             <ImPointRight />I Pursuing BCA in (Silver Oak University).
             <br />

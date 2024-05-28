@@ -13,17 +13,17 @@ function AboutCard() {
             <br />
             <ImPointRight />I have experienced in the React.js at the Techvault Support Service LLP (Branch) for 6 months as intern.
             <br />
-            <ImPointRight />I Pursuing BCA in (Silver Oak University).
+            <ImPointRight />I Completed BCA at (Silver Oak University).
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games.
+              <ImPointRight /> Playing Cricket.
             </li>
             <li className="about-activity">
-              <ImPointRight /> Playing Cricket.
+              <ImPointRight /> Playing Games.
             </li>
             <li className="about-activity">
               <ImPointRight /> Travelling.

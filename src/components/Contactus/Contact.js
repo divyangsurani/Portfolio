@@ -20,7 +20,7 @@ const Contact = () => {
                                 <div className="col-12 col-lg-6">
                                     <div className="border overflow-hidden">
 
-                                        <form method='post' action="https://formspree.io/f/mpzvdlda">
+                                        <form method='post' action="https://formspree.io/f/movabgzv">
                                             <div className="row gy-4 gy-xl-5 p-4 p-xl-5">
                                                 <div className="col-12">
                                                     <label htmlFor="fullname" className="form-label">Full Name <span className="text-danger">*</span></label>

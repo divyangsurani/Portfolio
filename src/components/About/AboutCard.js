@@ -13,7 +13,7 @@ function AboutCard() {
             <br />
             <ImPointRight /> I am working at ZION ELIRA IT SERVICE as front-end developer ( intern ) .
             <br />
-            <ImPointRight /> I Have an experience of 6 Months in React Js at Techvault Support Service llp as ( intern ) .
+            <ImPointRight />I Have an experience of 6 Months in React Js at Techvault Support Service llp as ( intern ) .
             <br />
             <ImPointRight /> I Pursuing BCA in (Silver Oak University).
             <br />

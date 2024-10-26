@@ -8,6 +8,7 @@ import mrgym from "../../Assets/Projects/mrgym.png";
 import blog from "../../Assets/Projects/blog.png";
 import mern from "../../Assets/Projects/mern.png";
 import threads from "../../Assets/Projects/threads.png";
+import travel from "../../Assets/Projects/travel.png";
 
 function Projects() {
   useEffect(() => {
@@ -24,6 +25,16 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+            <Col md={5} className="project-card">
+            <ProjectCard
+              imgPath={travel}
+              isBlog={false}
+              title="Travel Slider"
+              description=" Travel Slider is the unique and 3d website with animation "
+              ghLink="Sorry You want this code so connect me "
+              demoLink="https://slidertravel.netlify.app/"
+            />
+          </Col>
           <Col md={5} className="project-card">
             <ProjectCard
               imgPath={blog}
